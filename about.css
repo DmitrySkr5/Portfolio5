@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    background-color: transparent   ;
+    height: 50px;
+    width: 100vw;
+    position: fixed;
+    border-top: 2px solid #1AE0EC;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-left: 500px;
+}
+
+.nav ul li {
+    padding: 0 20px;
+    font-family: Heebo;
+}
+
+.nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: #1AE0EC;
+}
+
+.profile-sec>a>img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.profile-sec>img:hover {
+    cursor: pointer;
+}
+
+.nav .profile-sec {
+    display: flex;
+    align-items: center;
+}
+
+.profile-sec a {
+    color: #444444;
+}
+
+.nav .name {
+    font-family: satisfy;
+    padding-left: 10px;
+    color: #444444;
+}
+
+.wrapper {
+    background-color: rgb(139, 179, 184);
+    height: 652px;
+}
+
+.container {
+    height: 500px;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container>h5 {
+    font-size: 2rem;
+    font-family:cursive;
+    color:slategrey;
+    
+}
+
+.container>p {
+    width: 70%;
+}
+
+.container>h3 {
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+
+.my-img>img {
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+
+}
+
+.my-img {
+    margin-top: 50px;
+}
+
+.cv-btn {
+    padding: 10px 20px;
+    font-family: cursive;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 40px;
+    border: none;
+    background-color: darkcyan;
+    color: brown;
+}
+
+.cv-btn:hover {
+    cursor: pointer;
+}
+
+
+.footer {
+    background-color: #000000;
+    color: #1AE0EC; 
+    border-bottom: 4px solid #1AE0EC;
+    height: 50px;
+    
+}
+
+.footer-name {
+    letter-spacing: 0.5px;
+    position: relative;
+    left: 15px;
+    top: 7px;
+    font: normal normal normal 20px/29px Heebo;
+}
+
+.footer-rights {
+    position: relative;
+    left: 1200px;
+    top: 7px;
+    font: normal normal normal 20px/29px Heebo;
+}
